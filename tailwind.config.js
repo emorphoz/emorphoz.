@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       "colors": {
-       "purple": "#61066d",
-       "white": "#ffffff",
-       "pink": "#e8088f",
-       "blue": "#25c6e5",
-       "dark": "#2d054a"
+       "epurple": "#61066d",
+       "ewhite": "#ffffff",
+       "epink": "#e8088f",
+       "eblue": "#25c6e5",
+       "edark": "#2d054a"
       },
       "fontSize": {
        "5xs": "0.625rem",
