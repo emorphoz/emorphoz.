@@ -23,7 +23,13 @@ module.exports = {
        },
        "fontFamily": {
         "audiowide": "Audiowide",
-        "trap": "Trap"
+        "trap-black": "Trap-black",
+        "trap-bold": "Trap-bold",
+        "trap-extrabold": "Trap-extrabold",
+        "trap-light": "Trap-light",
+        "trap-medium": "Trap-medium",
+        "trap-regular": "Trap-regular",
+        "trap-semibold": "Trap-semibold",
        },
        "boxShadow": {
         "effect white and blur": "0px 0px 56px 0px rgba(255,255,255,1)",

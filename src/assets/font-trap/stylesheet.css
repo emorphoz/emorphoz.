@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Trap-black";
+    src: url(./Trap-Black.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-Bold";
+    src: url(./Trap-Bold.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-ExtraBold";
+    src: url(./Trap-ExtraBold.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-Light";
+    src: url(./Trap-Light.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-Medium";
+    src: url(./Trap-Medium.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-Regular";
+    src: url(./Trap-Regular.woff) format('woff');
+  }
+
+@font-face {
+    font-family: "Trap-SemiBold";
+    src: url(./Trap-SemiBold.woff) format('woff');
+  }

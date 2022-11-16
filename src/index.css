@@ -1,4 +1,7 @@
 /* ./src/index.css */
+
+@import url('./assets/font-trap/stylesheet.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

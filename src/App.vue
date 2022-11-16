@@ -3,14 +3,19 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-<div class="bg-epurple">
-  <p class="font-audiowide">
-    fdshgjdfhgjfdhghdsjfhsdfsd
+<div class="bg-edark">
+  <p class="font-audiowide text-3xl text-ewhite">
+    police Audiowide
   </p>
+  <p class="font-trap-light text-3xl text-ewhite">
+    police Trap
+  </p>
+  <p class="font-etrap text-3xl text-ewhite">
+    police Trap 2 - CSS
+  </p>
+  <p class="text-ewhite">tesgdsgsgsdgs</p>
 
-  <img src="../public/img/iconemorphoz.gif" alt="" class="animate-spin">
-
-  <h1 class="pt-96 font-trap">emorphoz</h1>
+  <img src="../public/img/iconemorphoz.gif" alt="">
 
   <RouterView />
 
