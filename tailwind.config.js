@@ -32,11 +32,11 @@ module.exports = {
         "trap-semibold": "Trap-semibold",
        },
        "boxShadow": {
-        "effect white and blur": "0px 0px 56px 0px rgba(255,255,255,1)",
-        "blur pink": "0px 3px 11px 0px rgba(189,0,255,1)",
-        "effect blur white strong": "0px 0px 19px 0px rgba(255,255,255,1)",
-        "bleu-turquoize--blur": "0px 4px 80px 0px rgba(37,198,229,1)",
-        "blur blue": "0px 0px 22px 0px rgba(37,198,229,1)"
+        "whiteBlur": "0px 0px 56px 0px rgba(255,255,255,1)",
+        "pinkBlur": "0px 3px 11px 0px rgba(189,0,255,1)",
+        "whiteStrongBlur": "0px 0px 19px 0px rgba(255,255,255,1)",
+        "turquoizeBlur": "0px 4px 80px 0px rgba(37,198,229,1)",
+        "blueBlur": "0px 0px 22px 0px rgba(37,198,229,1)"
        },
        "borderRadius": {
         "none": "0",
