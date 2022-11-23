@@ -1,7 +1,8 @@
 <template>
-    <div class="bg-epurple shadow-epurple drop-shadow-lg">
-        <div class="flex gap-10">
-            <div>
+    <div class="w-full pt-5 absolute bg-epurple shadow-epurple shadow-sm blur z-10"></div>
+    <div class="bg-gradient-to-b from-epurple to-edark shadow-epurple z-20 pb-10">
+        <div class="desktop:flex phone:grid tablette:grid phone:justify-center tablette:grid-cols-1 desktop:gap-10 tablette:relative phone:relative">
+            <div class="mt-10">
                 <img src="/public/icon/emorphoz_long.svg" alt="">
                 <div class="flex">
                     <p class="text-ewhite font-trap-semibold">in <span class="text-eblue">collaboration</span> with the</p>
@@ -18,7 +19,7 @@
             </div>
 
             <!-- TEAM -->
-            <div>
+            <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Our Team</h2>
                 <ul class="pt-2">
                     <Router-Link to="/about"><li class="font-trap-regular text-ewhite text-opacity-40">About</li></Router-Link>
@@ -28,7 +29,7 @@
             </div>
 
             <!-- Market -->
-            <div>
+            <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Market</h2>
                 <ul class="pt-2">
                     <Router-Link to="/market"><li class="font-trap-regular text-ewhite text-opacity-40">Generate NFT</li></Router-Link>
@@ -37,7 +38,7 @@
             </div>
 
             <!-- Crypto -->
-            <div>
+            <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Crypto Money</h2>
                 <ul class="pt-2">
                     <a href="#"><li class="font-trap-regular text-ewhite text-opacity-40">Tezos</li></a>
@@ -46,7 +47,7 @@
             </div>
 
             <!-- Policy -->
-            <div>
+            <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Privacy policy</h2>
                 <ul class="pt-2">
                     <Router-Link to="/"><li class="font-trap-regular text-ewhite text-opacity-40">Legal mentions</li></Router-Link>
@@ -56,5 +57,19 @@
             </div>
 
         </div>
+
+        <div class="grid grid-cols-1 justify-center ml-28 mb-10">
+            <hr class="opacity-25 mt-10 w-11/12"/>
+        </div>
+
+        <div class="grid grid-cols-2 gap-x-96 ml-3">
+            <p class="font-trap-regular text-opacity-10 text-ewhite">Project carried out as part of an educational exercise within the MMI department in Montbéliard</p>
+            <p class="font-trap-regular text-ewhite"> <span class="text-opacity-10">© 2022</span> E-morphoz</p>
+            
+        </div>
+
     </div>
 </template>
+
+<style scoped>
+</style>

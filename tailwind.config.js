@@ -38,6 +38,11 @@ module.exports = {
         "turquoizeBlur": "0px 4px 80px 0px rgba(37,198,229,1)",
         "blueBlur": "0px 0px 22px 0px rgba(37,198,229,1)"
        },
+       "screens": {
+        phone: '474px',
+        tablette: '425px',
+        desktop: '1024px'
+      },
        "borderRadius": {
         "none": "0",
         "xs": "0.24945177137851715rem",
