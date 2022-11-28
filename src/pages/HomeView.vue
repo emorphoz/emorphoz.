@@ -119,8 +119,15 @@
 
     </div>
 
+    <img src="/public/icon/orbe-purple.svg" alt="" class="absolute right-0 w-1/2 desktop:-mt-96">
+
+    <img src="/public/icon/orbe-pink.svg" alt="" class="absolute left-0 w-1/3 desktop:-mt-96">
+
     <div class="grid grid-cols-12 mt-36 mb-96">
         <div class="col-span-1"></div>
+
+        <img src="/public/icon/orbe-purple.svg" alt="" class="absolute w-1/3 left-0 desktop:mt-52 rotate-180 z-0">
+        <img src="/public/icon/orbe-pink.svg" alt="" class="absolute w-1/3 right-0 rotate-180 z-0">
 
         <div class="col-span-10">
             <p class="text-9xl text-ewhite font-trap-bold absolute z-0 desktop:-mt-44">Contact</p>
