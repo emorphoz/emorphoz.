@@ -5,7 +5,7 @@
     <h1 class="font-audiowide text-ewhite ml-10 text-lg">invest in yourself</h1>
     <div class="flex ml-10">
         <p class="text-ewhite font-trap-semibold text-base">in <span class="text-eblue">collaboration</span> with the</p>
-        <a href="https://www.offf.barcelona/"><img src="/public/icon/OFFF.svg" alt=""></a>
+        <a href="https://www.offf.barcelona/"><img src="/public/icon/OFFF.svg" alt="" target="_blank"></a>
     </div>
     <img src="/public/img/3-Ellipse.png" class="absolute top-44 right-0 w-1/5 z-10">
     <img src="/public/icon/orbe-purple.svg" class="absolute scale-150 top-36 right-14 z-10">
@@ -119,12 +119,32 @@
 
     </div>
 
-    <!-- <div class="grid grid-cols-3">
+    <div class="grid grid-cols-12 mt-36 mb-96">
         <div class="col-span-1"></div>
 
+        <div class="col-span-10">
+            <p class="text-9xl text-ewhite font-trap-bold absolute z-0 desktop:-mt-44">Contact</p>
+            <p class="text-9xl text-ewhite font-trap-bold absolute z-0 desktop:mt-96 desktop:right-20">Us now</p>
+             <img src="/public/img/Forms.png" alt="" class="absolute z-10 w-5/6 desktop:-mt-20">
+            <div class="grid grid-cols-2">
+                <form class="col-span-1 desktop:ml-24 z-40">
+                    <input type="text" placeholder="Your email" class="row bg-transparent z-50 border-b-2 text-ewhite mb-10 pr-40"> <br>
+                    <textarea name="" class="row bg-transparent z-50 border-b-2 text-ewhite pr-40 pb-12 text-opacity-70"> Message </textarea>
+                </form>
 
+                <div class="col-span-1">
+                    <img src="/public/img/fuser.png" alt="" class="absolute z-40 w-1/5 desktop:-ml-48 desktop:-mt-24">
+                    <h2 class="text-ewhite text-base font-trap-semibold mt-10 z-40">Any questions ?</h2>
+                    <p class="text-ewhite text-xs font-trap-regular z-40">if you have any questions about our generator or if you want a partnership, do not hesitate to <span class="text-eblue">contact us !</span></p>
+                </div>
 
-    </div> -->
+                <div class="col-span-1"></div>
+                <button class="bg-eblue desktop:-ml-32 shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-40 w-1/4 mt-10"><p class="font-trap-regular text-ewhite text-base z-40">Send</p></button>
+            </div>
+
+        </div>
+
+    </div> 
 
 </div>
 </template>
