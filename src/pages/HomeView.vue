@@ -33,10 +33,14 @@
     <!-- <img src="/public/" alt=""> == Gif System         -->
 
     <div class="flex">
-        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute">
-        <div>
-            <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-16">300, 000 NFTs</p> 
-            <p class="text-ewhite text-opacity-75 font-trap-light text-base text-center">Now available</p>
+        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-80 desktop:ml-10">
+        <img src="/public/img/renduFinal.gif" alt="" class="absolute z-10 right-10 desktop:mt-10">
+        <div class="grid grid-cols-4">
+            <div class="col-span-2"></div>
+            <div class="col-span-2">
+                <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-16">300, 000 NFTs</p> 
+                <p class="text-ewhite text-opacity-75 font-trap-light text-base text-center">Now available</p>
+            </div>
         </div>
     </div>
 
