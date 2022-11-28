@@ -24,7 +24,7 @@
 
     <div class="grid grid-cols-3 content-between mt-5">
         <div class="col-span-1"></div>
-        <Router-Link to="/market" class="z-20"><button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-xl border-eblue p-2"><p class="font-trap-regular text-ewhite text-lg z-20">Discover</p></button></Router-Link>
+        <Router-Link to="/market" class="z-20"><button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue p-2"><p class="font-trap-regular text-ewhite text-base z-20">Discover</p></button></Router-Link>
     </div>
     </div>
 
@@ -93,7 +93,7 @@
 
         <div class="col-span-1">
             <p class="text-ewhite text-base font-audiowide absolute z-50 left-96 desktop:ml-20">Many textures available</p>
-            <Router-Link to="/market"><button class="absolute desktop:mt-10 desktop:ml-24 scale-50 bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-xl border-eblue p-2 z-20"><p class="font-trap-regular text-ewhite text-lg z-20">Generate now</p></button></Router-Link>
+            <Router-Link to="/market"><button class="absolute desktop:mt-10 desktop:ml-3 scale-50 bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-20"><p class="font-trap-regular text-ewhite text-lg z-20">Generate now</p></button></Router-Link>
             <img src="/public/img/CardTextu.png" alt="" class="z-10 scale-150">
         </div>
 
@@ -106,7 +106,7 @@
 
     <div class="grid grid-cols-3 mt-10">
         <div class="col-span-1"></div>
-        <a href="https://tezos.com/" target="_blank"><button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-xl border-eblue p-2 z-20 desktop:ml-28"><img src="/public/img/tezosButton.png" alt=""></button></a>
+        <a href="https://tezos.com/" target="_blank"><button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-20 desktop:ml-44 w-1/2"><img src="/public/img/tezosButton.png" alt=""></button></a>
     </div>
 
     <div class="grid grid-cols-2">
