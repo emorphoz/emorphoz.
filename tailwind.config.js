@@ -39,8 +39,8 @@ module.exports = {
         "blueBlur": "0px 0px 22px 0px rgba(37,198,229,1)"
        },
        "screens": {
-        phone: '474px',
-        tablette: '425px',
+        phone: '274px',
+        // tablette: '425px',
         desktop: '1024px'
       },
        "borderRadius": {

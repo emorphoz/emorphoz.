@@ -1,11 +1,21 @@
 <template>
 
 <div>
-    <img src="/public/icon/emorphoz_long.svg" alt="" class="w-96">
-    <h1 class="font-audiowide text-ewhite ml-10 text-lg">invest in yourself</h1>
+    <!-- Long Logo -->
+    <img src="/public/icon/emorphoz_long.svg" alt="" class="desktop:w-96 w-11/12">
+
+    <!-- Slogan -->
+    <h1 class="font-audiowide text-ewhite ml-10 desktop:text-lg text-xs">invest in yourself</h1>
     <div class="flex ml-10">
-        <p class="text-ewhite font-trap-semibold text-base">in <span class="text-eblue">collaboration</span> with the</p>
-        <a href="https://www.offf.barcelona/"><img src="/public/icon/OFFF.svg" alt="" target="_blank"></a>
+        <p class="text-ewhite font-trap-semibold desktop:text-base text-xs phone:mt-2">in <span class="text-eblue">collaboration</span> with the</p>
+
+        <!-- Logo OFF PC & Mobile -->
+        <div class="desktop:flex hidden">
+            <a href="https://www.offf.barcelona/" target="_blank"><img src="/public/icon/OFFF.svg" alt=""></a>
+        </div>
+        <div class="flex desktop:hidden">
+            <a href="https://www.offf.barcelona/" target="_blank"><img src="/public/icon/OFFF.svg" alt="" class="phone:absolute phone:left-0 phone:w-1/3 phone:ml-5 phone:mt-10"></a>
+        </div>
     </div>
     <img src="/public/img/3-Ellipse.png" class="absolute top-44 right-0 w-1/5 z-10">
     <img src="/public/icon/orbe-purple.svg" class="absolute scale-150 top-36 right-14 z-10">
