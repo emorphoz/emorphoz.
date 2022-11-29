@@ -5,7 +5,7 @@
             <div class="mt-10">
                 <img src="/public/icon/emorphoz_long.svg" alt="">
                 <div class="flex">
-                    <p class="text-ewhite font-trap-semibold">in <span class="text-eblue">collaboration</span> with the</p>
+                    <p class="text-ewhite font-trap-semibold text-shadow-epink">in <span class="text-eblue">collaboration</span> with the</p>
                     <img src="/public/icon/OFFF.svg" alt="" class="w-1/5">
                 </div>
 
@@ -63,8 +63,8 @@
         </div>
 
         <div class="grid grid-cols-2 gap-x-96 ml-3">
-            <p class="font-trap-regular text-opacity-10 text-ewhite">Project carried out as part of an educational exercise within the MMI department in Montbéliard</p>
-            <p class="font-trap-regular text-ewhite"> <span class="text-opacity-10">© 2022</span> E-morphoz</p>
+            <p class="font-trap-regular text-opacity-20 text-ewhite">Project carried out as part of an educational exercise within the MMI department in Montbéliard</p>
+            <p class="font-trap-regular text-ewhite"> <span class="text-opacity-20">© 2022</span> E-morphoz</p>
             
         </div>
 
@@ -72,4 +72,20 @@
 </template>
 
 <style scoped>
+
+.text-shadow-eblue {
+    text-shadow: #25C6E5 1px 0 10px;
+}
+.text-shadow-epurple {
+    text-shadow: #61066D 1px 0 10px;
+}
+
+.text-shadow-ewhite {
+    text-shadow: #FFFFFF 1px 0 10px;
+}
+
+.text-shadow-epink {
+    text-shadow: #E8088F 1px 0 3px;
+}
+
 </style>

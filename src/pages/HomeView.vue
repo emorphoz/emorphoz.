@@ -17,10 +17,38 @@
             <a href="https://www.offf.barcelona/" target="_blank"><img src="/public/icon/OFFF.svg" alt="" class="phone:absolute phone:left-0 phone:w-1/3 phone:ml-5 phone:mt-10"></a>
         </div>
     </div>
-    <img src="/public/img/3-Ellipse.png" class="absolute top-44 right-0 w-1/5 z-10">
-    <img src="/public/icon/orbe-purple.svg" class="absolute scale-150 top-36 right-14 z-10">
+    <div class="desktop:flex hidden">
+        <img src="/public/img/3-Ellipse.png" class="absolute top-44 right-0 w-1/5 z-10">
+        <img src="/public/icon/orbe-purple.svg" class="absolute scale-150 top-36 right-14 z-10">
+        <img src="/public/img/Ellipse-lineshort.png" alt="" class="absolute left-96 w-1/5 z-10">
+    </div>
 
-    <img src="/public/img/Ellipse-lineshort.png" alt="" class="absolute left-96 w-1/5 z-10">
+    <div class="desktop:hidden flex">
+
+        <div class="grid grid-cols-2">
+            <div class="col-span-1">
+                <img src="/public/img/3-Ellipse.png" alt="" class="rotate-90 mt-14 -ml-32 scale-150">
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex">
+                    <img src="/public/img/NFTsymb.png" alt="" class="h-12 mt-16">
+                    <p class="font-trap-semibold text-ewhite text-xs mt-20">300, 000 NFTs</p> 
+                </div>
+                <p class="text-ewhite text-opacity-75 font-trap-light text-3xs text-center">Now available</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop:hidden flex">
+        <img src="/public/img/coccinelle.png" alt="" class="z-20">
+        <img src="/public/img/clouds.png" alt="" class="z-10 absolute opacity-30 epur">
+    </div>
+
+    <div class="desktop:hidden flex">
+        <img src="/public/img/renduFinal.gif" alt="" class="w-11/12 ml-10">
+    </div>
 
     <div class="w-1/2 z-20">
     <p class="text-ewhite font-trap-regular pt-40 ml-10 text-base z-20">Discover a unique generator that will create a unique <br />
@@ -28,8 +56,11 @@
     according to the ambient temperature of your city...</p>
     <img src="/public/img/Ellipse-lineshort.png" alt="" class="absolute z-10 w-1/6 -bottom-24">
 
-    <img src="/public/img/coccinelle.png" alt="" class="z-20 absolute -bottom-24 w-1/3 right-0">
-    <img src="/public/img/nuage.png" alt="" class="z-10 absolute -bottom-24 w-1/3 right-0 opacity-30 epur">
+    <div class="desktop:flex hidden">
+        <img src="/public/img/coccinelle.png" alt="" class="z-20 absolute -bottom-24 w-1/3 right-0">
+        <img src="/public/img/clouds.png" alt="" class="z-10 absolute -bottom-24 w-1/3 right-0 opacity-30 epur">
+    </div>
+    
     <img src="/public/icon/orbe-purple.svg" class="absolute scale-150 right-72 bottom-20 z-0 rotate-90 w-1/6">
 
     <div class="grid grid-cols-3 content-between mt-5">
@@ -42,9 +73,9 @@
 
     <!-- <img src="/public/" alt=""> == Gif System         -->
 
-    <div class="flex">
-        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-80 desktop:ml-10">
+    <div class="hidden desktop:flex">
         <img src="/public/img/renduFinal.gif" alt="" class="absolute z-10 right-10 desktop:mt-10">
+        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-80 desktop:ml-10">
         <div class="grid grid-cols-4">
             <div class="col-span-2"></div>
             <div class="col-span-2">
@@ -140,8 +171,8 @@
         <img src="/public/icon/orbe-pink.svg" alt="" class="absolute w-1/3 right-0 rotate-180 z-0">
 
         <div class="col-span-10">
-            <p class="text-9xl font-trap-bold absolute z-0 desktop:-mt-44 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">Contact</p>
-            <p class="text-9xl font-trap-bold absolute z-0 desktop:mt-96 desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">Us now</p>
+            <p class="desktop:text-[150px] font-trap-bold absolute z-0 desktop:-mt-56 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">CONTACT</p>
+            <p class="desktop:text-[150px] font-trap-bold absolute z-0 desktop:mt-[360px] desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">US NOW</p>
              <img src="/public/img/Forms.png" alt="" class="absolute z-10 w-5/6 desktop:-mt-20">
             <div class="grid grid-cols-2">
                 <form class="col-span-1 desktop:ml-24 z-40">
