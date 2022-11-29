@@ -140,8 +140,8 @@
         <img src="/public/icon/orbe-pink.svg" alt="" class="absolute w-1/3 right-0 rotate-180 z-0">
 
         <div class="col-span-10">
-            <p class="text-9xl text-ewhite font-trap-bold absolute z-0 desktop:-mt-44">Contact</p>
-            <p class="text-9xl text-ewhite font-trap-bold absolute z-0 desktop:mt-96 desktop:right-20">Us now</p>
+            <p class="text-9xl font-trap-bold absolute z-0 desktop:-mt-44 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">Contact</p>
+            <p class="text-9xl font-trap-bold absolute z-0 desktop:mt-96 desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">Us now</p>
              <img src="/public/img/Forms.png" alt="" class="absolute z-10 w-5/6 desktop:-mt-20">
             <div class="grid grid-cols-2">
                 <form class="col-span-1 desktop:ml-24 z-40">
