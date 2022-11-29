@@ -5,9 +5,9 @@
     <img src="/public/icon/emorphoz_long.svg" alt="" class="desktop:w-96 w-11/12">
 
     <!-- Slogan -->
-    <h1 class="font-audiowide text-ewhite ml-10 desktop:text-lg text-xs">invest in yourself</h1>
+    <h1 class="font-audiowide text-ewhite ml-10 desktop:text-lg text-xs text-shadow-epink">invest in yourself</h1>
     <div class="flex ml-10">
-        <p class="text-ewhite font-trap-semibold desktop:text-base text-xs phone:mt-2">in <span class="text-eblue">collaboration</span> with the</p>
+        <p class="text-ewhite font-trap-semibold desktop:text-base text-xs phone:mt-2 text-shadow-epink">in <span class="text-eblue">collaboration</span> with the</p>
 
         <!-- Logo OFF PC & Mobile -->
         <div class="desktop:flex hidden">
@@ -103,7 +103,7 @@
 
         <div class="col-span-1">
             <p class="text-ewhite text-base font-audiowide absolute z-50 left-96 desktop:ml-20">Many textures available</p>
-            <Router-Link to="/market"><button class="absolute desktop:mt-10 desktop:ml-3 scale-50 bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-20"><p class="font-trap-regular text-ewhite text-lg z-20">Generate now</p></button></Router-Link>
+            <Router-Link to="/market"><button class="absolute desktop:mt-10 desktop:ml-3 scale-50 bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-20"><p class="font-trap-regular text-ewhite text-lg z-20 text-shadow-eblue">Generate now</p></button></Router-Link>
             <img src="/public/img/CardTextu.png" alt="" class="z-10 scale-150">
         </div>
 
@@ -112,7 +112,7 @@
 
     <img src="/public/icon/orbe-purple.svg" alt="" class="absolute z-0 rotate-180 w-1/3 desktop:-mt-52">
     <img src="/public/icon/orbe-pink.svg" alt="" class="absolute z-0 rotate-180 w-1/5 right-0">
-    <p class="text-center mt-20 text-ewhite font-audiowide text-lg z-20">A more <span class="text-eblue">eco-friendly</span> way to pay and store your NFT</p>
+    <p class="text-center mt-20 text-ewhite font-audiowide text-lg z-20 text-shadow-eblue">A more <span class="text-eblue">eco-friendly</span> way to pay and store your NFT</p>
 
     <div class="grid grid-cols-3 mt-10">
         <div class="col-span-1"></div>
@@ -123,7 +123,7 @@
         <img src="/public/img/carte.png" alt="">
         
         <div class="desktop:mt-72">
-            <h2 class="text-ewhite font-audiowide text-lg text-center">Why <span class="text-eblue"> Tezos </span> ?</h2>
+            <h2 class="text-ewhite font-audiowide text-lg text-center text-shadow-eblue">Why <span class="text-eblue"> Tezos </span> ?</h2>
             <p class="text-ewhite font-trap-light text-light">Unlike blockchains such as Bitcoin or Etherum, the tezos system requires much less carbon energy and running costs making it an ideal alternative platform to create environmentally friendly blockchain applications</p>
         </div>
 
@@ -167,4 +167,20 @@
 </template>
 
 <style scoped>
+
+.text-shadow-eblue {
+    text-shadow: #25C6E5 1px 0 10px;
+}
+.text-shadow-epurple {
+    text-shadow: #61066D 1px 0 10px;
+}
+
+.text-shadow-ewhite {
+    text-shadow: #FFFFFF 1px 0 10px;
+}
+
+.text-shadow-epink {
+    text-shadow: #E8088F 1px 0 3px;
+}
+
 </style>
