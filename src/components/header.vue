@@ -2,6 +2,9 @@
      <header class="pb-20">
     <div class="flex gap-14">
       <Router-Link to="/" class="desktop:w-1/12 desktop:scale-50 phone:w-1/5 phone:ml-2 desktop:ml-10 desktop:mr-52"><img src="/public/img/iconemorphoz.gif"></Router-Link>
+      <div class="desktop:hidden flex">
+        <button @click="menuVisible = !menuVisible"><img src="/public/icon/Menu.svg" alt="" class="absolute top-6 right-4"></button>
+      </div>
       <div class="flex pt-10 gap-80">
         <!-- DROPDOWN -->
         <!-- <p class="desktop:flex hidden font-trap-semibold text-ewhite pt-4">EN</p> -->
@@ -9,6 +12,7 @@
       
 
         
+        <!-- MENU PC -->
         <nav>
           <div class="desktop:flex hidden">
 
@@ -33,7 +37,21 @@
         <Router-Link to="/login"><p class="font-trap-semibold text-ewhite pt-2">LOG IN</p></Router-Link>
         <Router-Link to="/sign"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2"><p class="font-trap-semibold text-ewhite text-opacity-40"> Sign Up </p></button></Router-Link>
       </div>
+
+
       </div>  
     </div>
+
+    <!-- MENU PHONE -->
+    <nav>
+      <div class="w-full bg-edark" :class="{hidden: menuVisible}">
+        <h2>test</h2>
+      </div>
+    </nav>
   </header>
 </template>
+
+<script setup>
+import {ref} from 'vue';
+const menuVisible = ref(true);
+</script>
