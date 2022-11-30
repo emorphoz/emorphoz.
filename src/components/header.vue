@@ -1,10 +1,13 @@
 <template>
      <header class="pb-20">
     <div class="flex gap-14">
-      <Router-Link to="/" class="w-1/12 scale-50"><img src="/public/img/iconemorphoz.gif"></Router-Link>
-      <div class="flex pt-10 gap-64">
+      <Router-Link to="/" class="desktop:w-1/12 desktop:scale-50 phone:w-1/5 phone:ml-2 desktop:ml-10 desktop:mr-52"><img src="/public/img/iconemorphoz.gif"></Router-Link>
+      <div class="flex pt-10 gap-80">
         <!-- DROPDOWN -->
-        <p class="desktop:flex hidden font-trap-semibold text-ewhite pt-4">EN</p>
+        <!-- <p class="desktop:flex hidden font-trap-semibold text-ewhite pt-4">EN</p> -->
+
+      
+
         
         <nav>
           <div class="desktop:flex hidden">
