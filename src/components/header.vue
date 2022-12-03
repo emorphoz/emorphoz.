@@ -1,9 +1,10 @@
 <template>
      <header class="pb-20">
     <div class="flex gap-14">
-      <Router-Link to="/" class="desktop:w-1/12 desktop:scale-50 phone:w-1/5 phone:ml-2 desktop:ml-10 desktop:mr-52"><img src="/public/img/iconemorphoz.gif"></Router-Link>
+      <Router-Link to="/" @click="menuVisible = true" class="desktop:w-1/12 desktop:scale-50 phone:w-1/5 phone:ml-2 desktop:ml-10 desktop:mr-52"><img src="/public/img/iconemorphoz.gif"></Router-Link>
       <div class="desktop:hidden flex">
-        <button @click="menuVisible = !menuVisible"><img src="/public/icon/Menu.svg" alt="" class="absolute top-6 right-4"></button>
+        <button @click="menuVisible = !menuVisible" :class="{hidden: !menuVisible}"><img src="/public/icon/Menu.svg" alt="" class="absolute top-6 right-4"></button>
+        <button @click="menuVisible = !menuVisible" :class="{hidden: menuVisible}"><img src="/public/img/cross.png" alt="" class="absolute top-3 right-4"></button>
       </div>
       <div class="flex pt-10 gap-80">
         <!-- DROPDOWN -->
@@ -43,9 +44,69 @@
     </div>
 
     <!-- MENU PHONE -->
-    <nav>
-      <div class="w-full bg-edark" :class="{hidden: menuVisible}">
-        <h2>test</h2>
+    <nav class="overflow-hidden">
+      <div class="h-full w-full bg-edark absolute overflow-y-hidden z-50" :class="{hidden: menuVisible}">
+        <img src="/public/icon/emorphoz_long.svg" alt="" class="desktop:w-96 w-11/12">
+
+        <img src="/public/icon/orbe-purple.svg" alt="" class="absolute z-0 w-[1000px]">
+        <ul class="mt-14 z-50">
+          <li class="z-50">
+          <Router-link to="/" @click="menuVisible = !menuVisible" class="z-50">
+            <div class="flex gap-4 justify-center z-50">
+              <h2 class="font-trap-medium text-ewhite text-base z-50">Log in / Sign up</h2>
+              <img src="/public/icon/phoneMenu/Profil.svg" alt="" class="z-50">
+            </div>
+          </Router-link>
+            <hr class="ml-14 mr-2 bg-gradient-to-r from-eblue to-epink">
+          </li>
+
+          <li class="mt-10 z-50">
+          <Router-Link to="/how" class="z-50" @click="menuVisible = !menuVisible">
+            <div class="flex gap-4 justify-center z-50">
+              <h2 class="font-trap-medium text-ewhite text-base z-50">How it works</h2>
+              <img src="/public/icon/phoneMenu/Question.png" alt="" class="w-1/12 z-50">
+            </div>
+          </Router-Link>
+            <hr class="ml-14 mr-2 bg-gradient-to-r from-eblue to-epink">
+          </li>
+
+
+          <li class="mt-10 z-50">
+            <Router-Link to="/market" class="z-50" @click="menuVisible = !menuVisible">
+            <div class="flex gap-4 justify-center z-50">
+              <h2 class="font-trap-medium text-ewhite text-base z-50">Market</h2>
+              <img src="/public/icon/phoneMenu/Market.png" alt="" class="z-50 w-[37px]">
+            </div>
+          </Router-Link>
+            <hr class="ml-14 mr-2 bg-gradient-to-r from-eblue to-epink">
+          </li>
+
+
+          <li class="mt-10">
+            <Router-Link to="/about" @click="menuVisible = !menuVisible">
+            <div class="flex gap-4 justify-center">
+              <h2 class="font-trap-medium text-ewhite text-base">About Us</h2>
+              <img src="/public/icon/phoneMenu/About.png" alt="" class="w-[40px]">
+            </div>
+          </Router-Link>
+            <hr class="ml-14 mr-2 bg-gradient-to-r from-eblue to-epink">
+          </li>
+
+
+          <li class="mt-10">
+            <Router-Link to="/#contact" @click="menuVisible = !menuVisible">
+            <div class="flex gap-4 justify-center">
+              <h2 class="font-trap-medium text-ewhite text-base">Contact</h2>
+              <img src="/public/icon/phoneMenu/Contact.png" alt="" class="w-[40px]">
+            </div>
+          </Router-Link>
+            <hr class="ml-14 mr-2 bg-gradient-to-r from-eblue to-epink">
+          </li>
+        </ul>
+
+        <img src="/public/icon/phoneMenu/3EllipseGradient.svg" alt="" class="absolute">
+
+
       </div>
     </nav>
   </header>

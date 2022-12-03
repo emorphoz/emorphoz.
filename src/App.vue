@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import headerE from './components/header.vue'
 import footerE from './components/footer.vue'
 
+
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import footerE from './components/footer.vue'
 <headerE />
 
 
-  <RouterView />
+  <RouterView/>
 
 
 <footerE />
