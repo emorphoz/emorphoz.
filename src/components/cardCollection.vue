@@ -1,13 +1,53 @@
 <template>
 
+    <div class="grid">
+        <div class="relative bg-black border-2 shadow-epink shadow-lg">
+            <div :class="{hidden: !statut}" class="absolute z-50 bg-black bg-opacity-70 w-full h-full">
+                <p class="text-ewhite font-trap-semibold phone:text-2xs desktop:text-base text-center desktop:mt-14 text-shadow-ewhite ">Available soon..</p>
+                <div class="flex justify-center">
+                    <img src="/public/img/Locked.png" alt="">
+                </div>
+            </div>
+
+            <div class="absolute z-40 w-full h-full border-epink border-8 blur-sm shadow-epink shadow-lg"></div>
+            <img src="/public/icon/orbe-purple.svg" alt="" class="absolute z-10 w-[700px]">
+            <component :is="insects[insect]" class="z-20 phone:h-[150px] desktop:h-[300px]"/>
+        </div>
+
+        <div class="bg-gradient-to-tr from-epink to-edark shadow-epurple shadow-lg py-2" >
+            <h2 class="text-center text-ewhite font-trap-semibold desktop:text-base phone:text-xs">{{name}}</h2>
+        </div>
+
+    </div>
+
 </template>
 
+<style scoped>
+
+.text-shadow-eblue {
+    text-shadow: #25C6E5 1px 0 10px;
+}
+.text-shadow-epurple {
+    text-shadow: #61066D 1px 0 10px;
+}
+
+.text-shadow-ewhite {
+    text-shadow: #FFFFFF 1px 0 10px;
+}
+
+.text-shadow-epink {
+    text-shadow: #E8088F 1px 0 3px;
+}
+
+</style>
+
 <script>
-// import statut from './icones/joueur_icone.vue';
-// import foot from './icones/ballon_foot.vue';
-// import petanque from "./icones/ballon_petanque.vue";
-// import bascket from "./icones/ballon_basket.vue";
-// import tennis from "./icones/ballon_tennis.vue";
+import ladybug from './insects/ladybug.vue'
+import butterfly from './insects/butterfly.vue'
+import mantis from './insects/mantis.vue'
+import grasshopper from './insects/grasshopper.vue'
+import bee from './insects/bee.vue'
+import larva from './insects/larva.vue'
 
 export default {
   props: {
@@ -32,16 +72,16 @@ export default {
   },
   data: function() {
     return {
-      insect: {
+      insects: {
         "ladybug":ladybug,
-        "butterfly":butterfly,
-        "mantis":mantis,
-        "grasshopper":grasshopper,
-        "bee":bee,
-        "larva":larva,
-      },      
+        butterfly,
+        mantis,
+        grasshopper,
+        bee,
+        larva,
+      }    
     }
   },
-  components: { statut, ladybug, butterfly, mantis, grasshopper, bee, larva }
+  components: { ladybug, butterfly, mantis, grasshopper, bee, larva }
 };
 </script>
