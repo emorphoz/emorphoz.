@@ -42,7 +42,7 @@
     </div>
 
     <div class="desktop:hidden flex">
-        <img src="/public/img/coccinelle.png" alt="" class="z-20">
+        <img src="/public/img/insects/coccinelle.png" alt="" class="z-20">
         <img src="/public/img/clouds.png" alt="" class="z-10 absolute opacity-30 epur">
     </div>
 
@@ -57,7 +57,7 @@
         <img src="/public/img/Ellipse-lineshort.png" alt="" class="absolute z-10 desktop:w-1/6 desktop:-bottom-24 phone:-mt-32 phone:w-[280px] phone:rotate-[225deg] desktop:rotate-0">
 
     <div class="desktop:flex hidden">
-        <img src="/public/img/coccinelle.png" alt="" class="z-20 absolute -bottom-24 w-1/3 right-0">
+        <img src="/public/img/insects/coccinelle.png" alt="" class="z-20 absolute -bottom-24 w-1/3 right-0">
         <img src="/public/img/clouds.png" alt="" class="z-10 absolute -bottom-24 w-1/3 right-0 opacity-30 epur">
     </div>
     

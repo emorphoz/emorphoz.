@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
-import headerE from './components/header.vue'
 import footerE from './components/footer.vue'
 
 import {ref} from 'vue';
