@@ -31,7 +31,7 @@ const menuVisible = ref(true);
           <div class="desktop:flex hidden">
 
 
-              <div class="px-56 pt-8 mt-3 absolute bg-epurple rounded-full shadow-epurple shadow-sm blur z-10"></div>
+              <div class="px-56 pt-12 mt-3 absolute bg-epurple rounded-full shadow-epurple shadow-sm blur z-10"></div>
             <ul class="flex gap-10 pt-5 rounded-full z-20">
               <Router-Link to="/how"><li class="font-trap-regular text-ewhite ml-4">How it works</li></Router-Link>
               <Router-Link to="/#contact"><li class="font-trap-regular text-ewhite">Contact</li></Router-Link>

@@ -33,7 +33,7 @@
             <div class="col-span-1">
                 <div class="flex">
                     <img src="/public/img/NFTsymb.png" alt="" class="h-12 mt-16">
-                    <p class="font-trap-semibold text-ewhite text-xs mt-20">300, 000 NFTs</p> 
+                    <p class="font-trap-semibold text-ewhite text-xs mt-20">27, 000 NFTs</p> 
                 </div>
                 <p class="text-ewhite text-opacity-75 font-trap-light text-3xs text-center">Now available</p>
             </div>
@@ -75,11 +75,11 @@
 
     <div class="hidden desktop:flex">
         <img src="/public/img/renduFinal.gif" alt="" class="absolute z-10 right-10 desktop:mt-10">
-        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-80 desktop:ml-10">
+        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-72 desktop:ml-10">
         <div class="grid grid-cols-4">
             <div class="col-span-2"></div>
             <div class="col-span-2">
-                <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-14">300, 000 NFTs</p> 
+                <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-14">27, 000 NFTs</p> 
                 <p class="text-ewhite text-opacity-75 font-trap-light text-base text-center">Now available</p>
             </div>
         </div>
@@ -120,7 +120,7 @@
         <div class="col-span-1"></div>
 
         <div class="col-span-6">
-            <p class="text-ewhite font-trap-light desktop:text-xs phone:text-3xs">
+            <p class="text-ewhite font-trap-light desktop:text-xs phone:text-3xs mx-4">
                 This smart contract states that once the NFT is entered in the blockchain , <span class="text-eblue">8% of the selling
                 price will be given to the 4 original parties</span>, forever. If you choose to invest with E-morphoz, you
                 will receive 2% of each resale in addition to participate in a donation for an association 
@@ -161,7 +161,7 @@
         
         <div class="desktop:mt-72">
             <h2 class="text-ewhite font-audiowide text-lg text-center text-shadow-eblue">Why <span class="text-eblue"> Tezos </span> ?</h2>
-            <p class="text-ewhite font-trap-light text-light">Unlike blockchains such as Bitcoin or Etherum, the tezos system requires much less carbon energy and running costs making it an ideal alternative platform to create environmentally friendly blockchain applications</p>
+            <p class="text-ewhite font-trap-light text-light mx-4">Unlike blockchains such as Bitcoin or Etherum, the tezos system requires much less carbon energy and running costs making it an ideal alternative platform to create environmentally friendly blockchain applications</p>
         </div>
 
     </div>
@@ -176,10 +176,10 @@
         <img src="/public/icon/orbe-purple.svg" alt="" class="absolute w-1/3 left-0 desktop:mt-52 rotate-180 z-0">
         <img src="/public/icon/orbe-pink.svg" alt="" class="absolute w-1/3 right-0 rotate-180 z-0">
 
-        <div class="col-span-10">
+        <div class="col-span-10" id="contact">
             <p class="phone:text-lg desktop:text-[150px] font-trap-bold absolute z-0 desktop:-mt-56 phone:-mt-10 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">CONTACT</p>
            <div class="desktop:flex hidden">
-                <p class="phone:text-lg desktop:text-[150px] font-trap-bold absolute z-0 desktop:mt-[360px] desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">US NOW</p>
+                <p class="phone:text-lg desktop:text-[150px] font-trap-bold absolute z-0 desktop:mt-[320px] desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">US NOW</p>
             </div>
             <div class="desktop:flex hidden">
                 <img src="/public/img/Forms.png" alt="" class="absolute z-10 w-5/6 desktop:-mt-20">
@@ -206,7 +206,7 @@
             </div>
 
             <div class="desktop:hidden flex">
-                <p class="phone:text-lg phone:mt-32 phone:ml-32 desktop:text-[150px] font-trap-bold absolute z-0 desktop:mt-[360px] desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">US NOW</p>
+                <p class="phone:text-lg phone:mt-20 phone:ml-32 desktop:text-[150px] font-trap-bold absolute z-0 desktop:mt-[360px] desktop:right-20 text-transparent bg-clip-text bg-gradient-to-r from-eblue to-epink">US NOW</p>
             </div>
 
         </div>

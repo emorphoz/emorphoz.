@@ -1,8 +1,8 @@
 <template>
-
+<Router-Link :to=url>
     <div class="grid">
         <div class="relative bg-black border-2 shadow-epink shadow-lg">
-            <div :class="{hidden: !statut}" class="absolute z-50 bg-black bg-opacity-70 w-full h-full">
+            <div :class="{hidden: !soon}" class="absolute z-50 bg-black bg-opacity-70 w-full h-full">
                 <p class="text-ewhite font-trap-semibold phone:text-2xs desktop:text-base text-center desktop:mt-14 text-shadow-ewhite ">Available soon..</p>
                 <div class="flex justify-center">
                     <img src="/public/img/Locked.png" alt="">
@@ -19,6 +19,7 @@
         </div>
 
     </div>
+</Router-Link>
 
 </template>
 
@@ -51,7 +52,7 @@ import larva from './insects/larva.vue'
 
 export default {
   props: {
-    statut: {
+    soon: {
       type: Boolean,
     },
     name: {

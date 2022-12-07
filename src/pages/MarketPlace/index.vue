@@ -5,32 +5,38 @@
     <div class="grid desktop:grid-cols-3 phone:grid-cols-2 place-items-stretch place-self-center desktop:mx-10 phone:mx-2 desktop:gap-10 phone:gap-2 mt-10">
         <card 
         name="ladybug"
-        insect="ladybug"/>
+        insect="ladybug"
+        url="/ladybugpresent"/>
 
         <card 
         name="Butterfly"
         insect="butterfly"
-        statut/>
+        soon
+        url="/market"/>
 
         <card 
         name="Mantis"
         insect="mantis"
-        statut/>
+        soon
+        url="/market"/>
 
         <card 
         name="Grasshopper"
         insect="grasshopper"
-        statut/>
+        soon
+        url="/market"/>
 
         <card 
         name="Bee"
         insect="bee"
-        statut/>
+        soon
+        url="/market"/>
 
         <card 
         name="Larva"
         insect="larva"
-        statut/>
+        soon
+        url="/market"/>
     </div>
 
     <p class="text-center text-ewhite text-shadow-epink font-trap-semibold desktop:text-base text-2xs phone:mx-2 desktop:mx-0 mt-40 mb-40">Our site regularly updates the collections by adding new insects. Do not hesitate to follow us on social networks to be informed of the next news.</p>
