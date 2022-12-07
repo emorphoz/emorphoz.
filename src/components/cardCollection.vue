@@ -64,7 +64,7 @@ export default {
     },
     url: {
       type: String,
-      default: "/",
+      default: "/market",
     },
     id:{
       type: String,

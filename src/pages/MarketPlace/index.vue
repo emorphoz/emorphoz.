@@ -11,33 +11,28 @@
         <card 
         name="Butterfly"
         insect="butterfly"
-        soon
-        url="/market"/>
+        soon/>
 
         <card 
         name="Mantis"
         insect="mantis"
-        soon
-        url="/market"/>
+        soon/>
 
         <card 
         name="Grasshopper"
         insect="grasshopper"
-        soon
-        url="/market"/>
+        soon/>
 
         <card 
         name="Bee"
         insect="bee"
-        soon
-        url="/market"/>
+        soon/>
 
         <card 
         name="Larva"
         insect="larva"
-        soon
-        url="/market"/>
-    </div>
+        soon/>
+    </div>                                                                     
 
     <p class="text-center text-ewhite text-shadow-epink font-trap-semibold desktop:text-base text-2xs phone:mx-4 desktop:mx-10 mt-40 mb-40">Our site regularly updates the collections by adding new insects. Do not hesitate to follow us on social networks to be informed of the next news.</p>
 
