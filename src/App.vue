@@ -57,7 +57,7 @@ const menuVisible = ref(true);
     </div>
 
     <!-- MENU PHONE -->
-    <nav class="overflow-hidden">
+    <nav class="overflow-hidden h-full flex desktop:hidden">
       <div class="h-full w-full bg-edark absolute overflow-y-hidden z-50" :class="{hidden: menuVisible}">
         <img src="/public/icon/emorphoz_long.svg" alt="" class="desktop:w-96 w-11/12">
 
