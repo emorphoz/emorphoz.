@@ -33,7 +33,7 @@ const router = createRouter({
     {path: '/market', name: 'market', component: MarketView},
 
     {path: '/ladybugpresent', name: 'ladybugpresent', component: LadybugPresentView},
-    {path: '/ladybuggenerate', name: 'ladybuggenerate', component: LadybugGenerateView},
+    {path: '/ladybuggenerate/:id', name: 'ladybuggenerate', component: LadybugGenerateView},
   ]
 })
 

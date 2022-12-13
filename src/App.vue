@@ -127,9 +127,9 @@ const menuVisible = ref(true);
 
 </header>
 
-
+<Suspense>
   <RouterView :class="{hidden: !menuVisible}"/>
-
+</Suspense>
 
 <footerE :class="{hidden: !menuVisible}"/>
 </div>
