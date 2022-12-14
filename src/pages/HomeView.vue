@@ -33,7 +33,7 @@
             <div class="col-span-1">
                 <div class="flex">
                     <img src="/public/img/NFTsymb.png" alt="" class="h-12 mt-16">
-                    <p class="font-trap-semibold text-ewhite text-xs mt-20">27, 000 NFTs</p> 
+                    <p class="font-trap-semibold text-ewhite text-xs mt-20">81, 000 NFTs</p> 
                 </div>
                 <p class="text-ewhite text-opacity-75 font-trap-light text-3xs text-center">Now available</p>
             </div>
@@ -75,11 +75,11 @@
 
     <div class="hidden desktop:flex">
         <img src="/public/img/renduFinal.gif" alt="" class="absolute z-10 right-10 desktop:mt-10">
-        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-96 absolute left-72 desktop:ml-10">
+        <img src="/public/img/NFTsymb.png" alt="" class="h-28 -bottom-[400px] absolute left-72 desktop:ml-10">
         <div class="grid grid-cols-4">
             <div class="col-span-2"></div>
             <div class="col-span-2">
-                <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-14">27, 000 NFTs</p> 
+                <p class="font-trap-semibold text-ewhite text-lg mt-52 desktop:ml-14">81, 000 NFTs</p> 
                 <p class="text-ewhite text-opacity-75 font-trap-light text-base text-center">Now available</p>
             </div>
         </div>
