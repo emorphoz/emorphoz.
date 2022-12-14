@@ -3,7 +3,7 @@
     <p class="font-trap-regular text-ewhite mx-10 mt-2 mb-20">We are a young team passionate about digital technology who has decided, as a part of a semester project set up by the MMI department of Montbéliard in France. to build a website allowing to create a customizable NFT. Once the nft is generated, 8% of all resales will be returned to the original 4 parties Here will be the presentation of the partner association when is chosen.</p>
 
     <div>
-        <!-- CARROUSEL -->
+        <carousel />
     </div>
 
     <h1 class="text-ewhite text-center phone:text-base desktop:text-lg font-audiowide text-shadow-epurple">Software used to design this project</h1>
@@ -61,7 +61,9 @@
                 This choice of association is the most appropriate for our project. It goes hand in hand with our identity psotioned on insects. Thus, by investing in our NFT, you also participate in the protection of their environment.</p>
         </div>
 
-        <img src="/public/img/suite-adobe-2_phone.png" alt="" class="desktop:hidden flex col-span-1">
+        <div class="flex justify-center">
+            <img src="/public/img/opie.png" alt="" class="desktop:hidden flex col-span-1 w-1/2">
+        </div>
     </section>
 
     
@@ -87,4 +89,5 @@
 </style>
 
 <script setup>
+import carousel from '../components/carouselTeam.vue'
 </script>
