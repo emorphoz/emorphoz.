@@ -4,7 +4,7 @@
 
     <p class="text-center text-ewhite text-shadow-epink font-trap-regular desktop:text-base phone:text-2xs phone:mx-2 desktop:mx-0 z-10 mt-20">Ready to generate your <span class="text-epink">unique</span> NFT ?</p>
     <div class="flex justify-center">
-        <!-- Formkit ? => Création id aléatoire sur supabase et création d'un ensemble aléatoire -->
+        <!-- Formkit ? => Comme l'id, générer aléatoire le résultat pour chaque calque -->
             <!-- => Rappel GIF comme avec Fino à l'affichage de la prochaine page -->
             <generateNFT 
             :id="Math.ceil(Math.random()*81000)"/>
