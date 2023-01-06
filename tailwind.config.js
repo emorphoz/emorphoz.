@@ -8,7 +8,8 @@ module.exports = {
         "ewhite": "#ffffff",
         "epink": "#e8088f",
         "eblue": "#25c6e5",
-        "edark": "#2d054a"
+        "edark": "#2d054a",
+        "egrey" : "#282828",
        },
        "fontSize": {
         "5xs": "0.625rem",
