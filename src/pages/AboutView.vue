@@ -3,7 +3,8 @@
     <p class="font-trap-regular text-ewhite mx-10 mt-2 mb-10">We are a young team passionate about digital technology who has decided, as a part of a semester project set up by the MMI department of Montbéliard in France. to build a website allowing to create a customizable NFT. Once the nft is generated, 8% of all resales will be returned to the original 4 parties Here will be the presentation of the partner association when is chosen.</p>
 
     <div>
-        <carousel/>
+        <carouselDesk class="desktop:flex hidden"/>
+        <carouselPhone class="desktop:hidden flex"/>
     </div>
 
     <h1 class="text-ewhite text-center phone:text-base desktop:text-lg font-audiowide text-shadow-epurple mt-40">Software used to design this project</h1>
@@ -89,5 +90,6 @@
 </style>
 
 <script setup>
-import carousel from '../components/carouselTeam.vue'
+import carouselDesk from '../components/carouselTeam-deskstop.vue'
+import carouselPhone from '../components/carouselTeam-phone.vue'
 </script>

@@ -1,13 +1,13 @@
 <template>
 
-<div class="bg-egrey w-1/5 relative mx-10 rounded-3xl shadow-turquoizeBlur border-eblue border-1">
-    <component :is="types[type]" alt="" class="scale-50 bottom-20 absolute rounded-full"/>
+<div class="bg-egrey desktop:w-1/5 relative mx-10 rounded-3xl shadow-turquoizeBlur border-eblue border-1">
+    <component :is="types[type]" alt="" class="desktop:scale-50 desktop:bottom-20 phone:bottom-44 absolute rounded-full"/>
 
     <div class="justify-center flex pt-32">
         <h2 class="text-center bg-eblue text-ewhite w-1/2 py-2 px-2 rounded-full phone:text-5xs desktop:text-3xs font-trap-regular">{{poste}}</h2>
     </div>
 
-        <h2 class="text-ewhite text-center text-shadow-eblue -mb-4 phone:text-xs desktop:text-sm font-audiowide">{{name}}</h2>
+        <h2 class="text-ewhite text-center text-shadow-eblue -mb-4 phone:text-2xs desktop:text-sm font-audiowide">{{name}}</h2>
 
         <div class="flex justify-center">
             <a :href="insta"><img src="/public/img/teams/Instagram.png" alt="" class="scale-50"></a>
