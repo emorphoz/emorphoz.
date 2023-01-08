@@ -20,7 +20,7 @@
 </div>  
 
 <div class="flex justify-center desktop:-ml-20 phone:-ml-20 mb-20">
-  <button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] px-10 py-3 border-eblue z-40 phone:ml-20 desktop:w-1/4 mt-10"><p class="font-trap-regular text-ewhite text-base z-40">Validate</p></button>
+  <a href="/public/img/teams/maxime.png"><button class="bg-eblue shadow-turquoizeBlur bg-opacity-80 border-2 rounded-[20px] phone:px-20 desktop:px-0 desktop:pr-32 desktop:pl-2 py-3 border-eblue z-40 phone:ml-20 desktop:ml-40 desktop:w-1/4 mt-10"><p class="font-trap-regular text-ewhite text-base z-40">Validate</p></button></a>
 </div>
 </template>
 
