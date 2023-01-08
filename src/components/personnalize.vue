@@ -1,6 +1,6 @@
 <template>
 
-<h1 class="text-ewhite text-center phone:text-base desktop:text-lg font-audiowide text-shadow-epurple">Choose your shell</h1>
+<h1 class="text-ewhite text-center phone:text-base desktop:text-lg font-audiowide text-shadow-epurple">Choose your elytron</h1>
         <div class="flex justify-center">
 
 <button v-on:click="cpChoose -= 1; if(cpChoose < 1){cpChoose = 4}"><img src="/public/icon/slide_left.svg" alt=""></button>
@@ -25,8 +25,8 @@
 </template>
 
 <script>
-let bgRandom = Math.ceil(Math.random()*40) + 1;
-let supportcorps_Random = Math.ceil(Math.random()*40) + 1;
+let bgRandom = Math.ceil(Math.random()*40);
+let supportcorps_Random = Math.ceil(Math.random()*40);
 
 let bgChoose = "/public/img/insects/mantis.png";
 let subcChoose = "/public/img/insects/mantis.png";
@@ -36,7 +36,7 @@ let cpChoose = 1;
 
 
 // ============= BACKGROUND
-if (bgRandom > 0 ) {
+if (bgRandom >= 0 ) {
   bgChoose = "/public/insects/ladybugs/backgrounds/bg_lava.png";
 };
 
