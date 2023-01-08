@@ -15,7 +15,6 @@ const login = async () => {
 
         password: passwrd.value,
     })
-    route.
 }
 </script>
 
