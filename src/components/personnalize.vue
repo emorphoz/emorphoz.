@@ -9,10 +9,10 @@
   <img :src="bg" alt="" class="mb-10 w-1/3 relative"/>        <!-- BG -->
   <img :src="support_corps" alt="" class="absolute w-1/3">    <!-- SUP -->
   <img :src="head" alt="" class="absolute w-1/3">             <!-- Head -->
-  <img src="/public/insects/ladybugs/carapaces/cp_lava.png" alt="" class="absolute w-1/3" v-if="cpChoose = 1">                <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_ocean.png" alt="" class="absolute w-1/3" v-if="cpChoose = 2">               <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_space.png" alt="" class="absolute w-1/3" v-if="cpChoose = 3">               <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_nature.png" alt="" class="absolute w-1/3" v-if="cpChoose = 4">              <!-- Carap -->
+  <img src="/public/insects/ladybugs/carapaces/cp_lava.png" alt="" class="absolute w-1/3" v-if="cpChoose == 1">                <!-- Carap -->
+  <img src="/public/insects/ladybugs/carapaces/cp_ocean.png" alt="" class="absolute w-1/3" v-if="cpChoose == 2">               <!-- Carap -->
+  <img src="/public/insects/ladybugs/carapaces/cp_space.png" alt="" class="absolute w-1/3" v-if="cpChoose == 3">               <!-- Carap -->
+  <img src="/public/insects/ladybugs/carapaces/cp_nature.png" alt="" class="absolute w-1/3" v-if="cpChoose == 4">              <!-- Carap -->
 </div>
 
 <button v-on:click="cpChoose += 1; if(cpChoose > 4){cpChoose = 1}"><img src="/public/icon/slide_right.svg" alt=""></button>
@@ -29,6 +29,7 @@ let subcChoose = "/public/img/insects/mantis.png";
 let headChoose = "/public/img/insects/mantis.png";
 
 let cpChoose = 1;
+
 
 // ============= BACKGROUND
 if (bgRandom > 0 ) {
@@ -72,6 +73,10 @@ if (supportcorps_Random > 30 ) {
 
 export default {
   props: {
+    cpChoose: {
+      type : Number,
+      default : 1,
+    },
         bg:{
             type : Text,
             default : bgChoose,
