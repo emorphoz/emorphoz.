@@ -1,10 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { supabase } from '@/supabase'
 
 import footerE from './components/footer.vue'
 
 import {ref} from 'vue';
 const menuVisible = ref(true);
+
 </script>
 
 <template>
