@@ -9,9 +9,9 @@ module.exports = {
         "epink": "#e8088f",
         "eblue": "#25c6e5",
         "edark": "#2d054a",
-        "egrey" : "#282828",
-       },
-       "fontSize": {
+        "egrey": "#282828",
+      },
+      "fontSize": {
         "5xs": "0.625rem",
         "4xs": "0.9375rem",
         "3xs": "1.0625rem",
@@ -21,8 +21,8 @@ module.exports = {
         "base": "1.75rem",
         "lg": "2.8125rem",
         "xl": "4.375rem"
-       },
-       "fontFamily": {
+      },
+      "fontFamily": {
         "audiowide": "Audiowide",
         "trap-black": "Trap-black",
         "trap-bold": "Trap-bold",
@@ -31,20 +31,20 @@ module.exports = {
         "trap-medium": "Trap-medium",
         "trap-regular": "Trap-regular",
         "trap-semibold": "Trap-semibold",
-       },
-       "boxShadow": {
+      },
+      "boxShadow": {
         "whiteBlur": "0px 0px 56px 0px rgba(255,255,255,1)",
         "pinkBlur": "0px 3px 11px 0px rgba(189,0,255,1)",
         "whiteStrongBlur": "0px 0px 19px 0px rgba(255,255,255,1)",
         "turquoizeBlur": "0px 4px 80px 0px rgba(37,198,229,1)",
         "blueBlur": "0px 0px 22px 0px rgba(37,198,229,1)"
-       },
-       "screens": {
+      },
+      "screens": {
         phone: '274px',
         // tablette: '425px',
         desktop: '1024px'
       },
-       "borderRadius": {
+      "borderRadius": {
         "none": "0",
         "xs": "0.24945177137851715rem",
         "sm": "0.29775270819664rem",
@@ -115,8 +115,15 @@ module.exports = {
         "63xl": "6rem",
         "64xl": "6.0625rem",
         "full": "9999px"
-       }
- 
+      },
+      backgroundImage: {
+        'gif1': "url('/public/img/tuto/gif1.jpg')",
+        'gif2': "url('/public/img/tuto/gif2.jpgp')",
+        'gif3': "url('/public/img/tuto/gif3.jpg')",
+        'gif4': "url('/public/img/tuto/gif4.jpg')",
+        'gif5': "url('/public/img/tuto/gif5.jpg')",
+      }
+
     },
   },
   variants: {
