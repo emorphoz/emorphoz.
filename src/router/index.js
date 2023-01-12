@@ -9,6 +9,7 @@ import PayView from '../pages/PayView.vue'
 
 import LoginView from '../pages/Accounts/LoginView.vue'
 import SignView from '../pages/Accounts/SignView.vue'
+import ProfilView from '../pages/Accounts/ProfilView.vue'
 
 // MARKETPLACE
 import MarketView from '../pages/MarketPlace/index.vue'
@@ -28,7 +29,7 @@ const router = createRouter({
 
     {path: '/login', name: 'login', component: LoginView},
     {path: '/sign', name: 'sign', component: SignView},
-    // {path: '/sign', name: 'sign', component: SignView}, -----> Configuration Profil
+    {path: '/Profil', name: 'Profil', component: ProfilView}, // ---> /:id
 
     {path: '/market', name: 'market', component: MarketView},
 

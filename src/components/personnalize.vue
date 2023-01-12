@@ -19,18 +19,17 @@
   <component is="supSpace" class="absolute desktop:w-1/3" v-if="sup == 3"/>
   <component is="supNature" class="absolute desktop:w-1/3" v-if="sup == 4"/>
 
+  <!-- ================= CARAPACE ================= -->
+  <img src="/public/insects/ladybugs/carapaces/cp_lava.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 1">
+  <img src="/public/insects/ladybugs/carapaces/cp_ocean.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 2">
+  <img src="/public/insects/ladybugs/carapaces/cp_space.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 3">
+  <img src="/public/insects/ladybugs/carapaces/cp_nature.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 4">
 
   <!-- ================= HEAD ================= -->
   <component is="headLava" class="absolute desktop:w-1/3" v-if="head == 1"/>
   <component is="headOcean" class="absolute desktop:w-1/3" v-if="head == 2"/>
   <component is="headSpace" class="absolute desktop:w-1/3" v-if="head == 3"/>
   <component is="headNature" class="absolute desktop:w-1/3" v-if="head == 4"/>
-
-
-  <img src="/public/insects/ladybugs/carapaces/cp_lava.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 1">                <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_ocean.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 2">               <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_space.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 3">               <!-- Carap -->
-  <img src="/public/insects/ladybugs/carapaces/cp_nature.png" alt="" class="absolute desktop:w-1/3" v-if="cpChoose == 4">              <!-- Carap -->
 </div>
 
 <button v-on:click="cpChoose += 1; if(cpChoose > 4){cpChoose = 1}"><img src="/public/icon/slide_right.svg" alt=""></button>

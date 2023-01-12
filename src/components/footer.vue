@@ -26,7 +26,7 @@
                 <ul class="pt-2">
                     <Router-Link to="/about"><li class="font-trap-regular text-ewhite text-opacity-40">About</li></Router-Link>
                     <Router-Link to="/about"><li class="font-trap-regular text-ewhite text-opacity-40">Our formation</li></Router-Link>
-                    <a href="#"><li class="font-trap-regular text-ewhite text-opacity-40">OFFF</li></a>
+                    <a href="https://www.offf.barcelona/" target="_blank"><li class="font-trap-regular text-ewhite text-opacity-40">OFFF</li></a>
                 </ul>
             </div>
 
@@ -43,8 +43,8 @@
             <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Crypto Money</h2>
                 <ul class="pt-2">
-                    <a href="#"><li class="font-trap-regular text-ewhite text-opacity-40">Tezos</li></a>
-                    <a href="#"><li class="font-trap-regular text-ewhite text-opacity-40">Open Wallet</li></a>
+                    <a href="https://tezos.com/" target="_blank"><li class="font-trap-regular text-ewhite text-opacity-40">Tezos</li></a>
+                    <a href="https://metamask.io/" target="_blank"><li class="font-trap-regular text-ewhite text-opacity-40">Open Wallet</li></a>
                 </ul>
             </div>
 
@@ -52,9 +52,9 @@
             <div class="mt-10">
                 <h2 class="text-ewhite font-trap-semibold">Privacy policy</h2>
                 <ul class="pt-2">
-                    <Router-Link to="/"><li class="font-trap-regular text-ewhite text-opacity-40">Legal mentions</li></Router-Link>
-                    <Router-Link to="/"><li class="font-trap-regular text-ewhite text-opacity-40">CGU</li></Router-Link>
-                    <Router-Link to="/"><li class="font-trap-regular text-ewhite text-opacity-40">Confidentiality policy</li></Router-Link>
+                    <Router-Link to="/mentionslegales"><li class="font-trap-regular text-ewhite text-opacity-40">Legal mentions</li></Router-Link>
+                    <Router-Link to="/mentionslegales"><li class="font-trap-regular text-ewhite text-opacity-40">CGU</li></Router-Link>
+                    <Router-Link to="/mentionslegales"><li class="font-trap-regular text-ewhite text-opacity-40">Confidentiality policy</li></Router-Link>
                 </ul>
             </div>
 

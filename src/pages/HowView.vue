@@ -3,17 +3,21 @@
         ?</h1>
     <img src="/public/img/renduFinal.gif" alt="video de presentation emorphoz" class="w-2/3 mx-auto">
     <div class="mx-auto">
-        <h2 class="text-ewhite text-center phone:text-base desktop:text-lg font-audiowide text-shadow-epurple mx-auto">
+        <h2 class="text-ewhite text-center phone:text-xs desktop:text-lg font-audiowide text-shadow-epurple">
             Take full control of your NFT</h2>
-        <h3 class="text-ewhite font-trap-medium tphone:text-base desktop:text-lg mx-auto">Learn how your NFT is created
+        <h3 class="text-ewhite font-trap-medium tphone:text-3xs desktop:text-xs text-center">Learn how your NFT is created
             step by step</h3>
     </div>
 
-    <div class="bg-[url('/public/img/tuto/gif1.jpg')]">
-        <div class="flex flex-wrap">
+    <div class="bg-[url('/public/img/tuto/gif1.jpg')] mt-10 h-full">
+        <div class="flex flex-shrink pt-20 desktop:ml-20">
             <img class="w-1/12" src="/public/img/tuto/numerotisation-1.png" />
-            <h2 class="text-ewhite font-audiowide text-lg text-center text-shadow-eblue">The generator uses the outside
-                temperature</h2>
+            <div>
+                <div class="flex justify-center">
+                    <hr class="text-epurple w-1/3 border-epurple"/>
+                </div>
+                <h2 class="text-ewhite font-audiowide text-lg text-center text-shadow-eblue">The generator uses the <br /> outside temperature</h2>
+            </div>
         </div>
         <p class="text-ewhite font-trap-light text-light mx-4">After pressing the "generate" button, a computer program
             launches to first look at the <span class="text-eblue"> outside temperature </span> of the place where you
@@ -23,9 +27,9 @@
     </div>
 
     <div class="bg-[url('/public/img/tuto/gif2.jpg')]">
-        <div class="flex flex-wrap">
+        <div class="desktop:flex">
             <img class="w-1/12" src="/public/img/tuto/numerotisation-2.png" />
-            <h2 class="text-ewhite font-audiowide text-lg text-center text-shadow-eblue">The generator will generate a
+            <h2 class="text-ewhite font-audiowide desktop:text-lg phone:text-5xs text-center text-shadow-eblue">The generator will generate a
                 rendering of the NFT</h2>
         </div>
         <p class="text-ewhite font-trap-light text-light mx-4">After taking the outside temperature into account, the
@@ -89,3 +93,21 @@
     </div>
 
 </template>
+<style scoped>
+
+.text-shadow-eblue {
+    text-shadow: #25C6E5 1px 0 10px;
+}
+.text-shadow-epurple {
+    text-shadow: #61066D 1px 0 10px;
+}
+
+.text-shadow-ewhite {
+    text-shadow: #FFFFFF 1px 0 10px;
+}
+
+.text-shadow-epink {
+    text-shadow: #E8088F 1px 0 3px;
+}
+
+</style>

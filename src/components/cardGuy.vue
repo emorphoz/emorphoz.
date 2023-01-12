@@ -10,8 +10,8 @@
         <h2 class="text-ewhite text-center text-shadow-eblue -mb-4 phone:text-2xs desktop:text-sm font-audiowide">{{name}}</h2>
 
         <div class="flex justify-center">
-            <a :href="insta"><img src="/public/img/teams/Instagram.png" alt="" class="scale-50"></a>
-            <a :href="linkedin"><img src="/public/img/teams/LinkedIn.png" alt="" class="scale-50"></a>
+            <a :href="insta" target="_blank"><img src="/public/img/teams/Instagram.png" alt="" class="scale-50"></a>
+            <a :href="linkedin" target="_blank"><img src="/public/img/teams/LinkedIn.png" alt="" class="scale-50"></a>
         </div>
 </div>
 

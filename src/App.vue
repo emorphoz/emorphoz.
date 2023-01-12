@@ -1,11 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { supabase } from '@/supabase'
+import { supabase } from '@/supabase.js'
 
 import footerE from './components/footer.vue'
 
 import {ref} from 'vue';
 const menuVisible = ref(true);
+
+const SignOut = async () => {
+        route.push("/")
+}
 
 </script>
 
@@ -50,8 +54,10 @@ const menuVisible = ref(true);
         
       
         <div class="desktop:flex hidden gap-10">
-        <Router-Link to="/login"><p class="font-trap-semibold text-ewhite pt-2">LOG IN</p></Router-Link>
-        <Router-Link to="/sign"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2"><p class="font-trap-semibold text-ewhite text-opacity-40"> Sign Up </p></button></Router-Link>
+        <Router-Link to="/login" v-if="user"><p class="font-trap-semibold text-ewhite pt-2">LOG IN</p></Router-Link>
+        <Router-Link to="/Profil" v-if="!user"><p class="font-trap-semibold text-ewhite pt-2">PROFIL</p></Router-Link> <!-- :to="{ name: 'Profil', params: { id: user.id } }"  | /{{user.id}} -->
+        <Router-Link to="/sign" v-if="user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2"><p class="font-trap-semibold text-ewhite text-opacity-40"> Sign Up </p></button></Router-Link>
+        <Router-Link to="/" v-if="!user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2" @click="SignOut()"><p class="font-trap-semibold text-ewhite text-opacity-40"> SIGN OUT </p></button></Router-Link>
       </div>
 
 

@@ -11,40 +11,40 @@
         name="Alicia Iversenc" 
         type="alicia"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/aliciaivrc/"
+        linkedin="https://www.linkedin.com/in/aliciaiversenc/"
         v-if="scoreCard1 == 1"/>
         
     <card class="mt-20" 
         name="Morgane Chamberlin" 
         type="morgane"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/morgane.19_c/"
+        linkedin="https://www.linkedin.com/in/morgane-chamberlin/"
         v-if="scoreCard1 == 2"/>
 
     <card class="mt-20" 
         name="Bryan Ferry" 
         type="bryan"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/bryan.fzz/"
+        linkedin="https://www.linkedin.com/in/bryan-ferry-523546216/"
         v-if="scoreCard1 == 3"/>
 
     <card class="mt-20" 
         name="Maxime Paris" 
         type="maxime"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/max_prs_25/"
+        linkedin="https://www.linkedin.com/in/maxime-paris-730322215/"
         v-if="scoreCard1 == 4"/>
 
     <card class="mt-20" 
         name="Marwin Rodrigues" 
         type="marwin"
         poste="Developper"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/marwin.rdgs/"
+        linkedin="https://www.linkedin.com/in/marwin-rodrigues/"
         v-if="scoreCard1 == 5"/>
     <!-- ======================================-->
 
@@ -53,40 +53,40 @@
         name="Alicia Iversenc" 
         type="alicia"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/aliciaivrc/"
+        linkedin="https://www.linkedin.com/in/aliciaiversenc/"
         v-if="scoreCard2 == 1"/>
         
     <card class="mt-20" 
         name="Morgane Chamberlin" 
         type="morgane"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/morgane.19_c/"
+        linkedin="https://www.linkedin.com/in/morgane-chamberlin/"
         v-if="scoreCard2 == 2"/>
 
     <card class="mt-20" 
         name="Bryan Ferry" 
         type="bryan"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/bryan.fzz/"
+        linkedin="https://www.linkedin.com/in/bryan-ferry-523546216/"
         v-if="scoreCard2 == 3"/>
 
     <card class="mt-20" 
         name="Maxime Paris" 
         type="maxime"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/max_prs_25/"
+        linkedin="https://www.linkedin.com/in/maxime-paris-730322215/"
         v-if="scoreCard2 == 4"/>
 
     <card class="mt-20" 
         name="Marwin Rodrigues" 
         type="marwin"
         poste="Developper"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/marwin.rdgs/"
+        linkedin="https://www.linkedin.com/in/marwin-rodrigues/"
         v-if="scoreCard2 == 5"/>
     <!-- ======================================-->
 
@@ -95,40 +95,40 @@
         name="Alicia Iversenc" 
         type="alicia"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/aliciaivrc/"
+        linkedin="https://www.linkedin.com/in/aliciaiversenc/"
         v-if="scoreCard3 == 1"/>
         
     <card class="mt-20" 
         name="Morgane Chamberlin" 
         type="morgane"
         poste="Communication"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/morgane.19_c/"
+        linkedin="https://www.linkedin.com/in/morgane-chamberlin/"
         v-if="scoreCard3 == 2"/>
 
     <card class="mt-20" 
         name="Bryan Ferry" 
         type="bryan"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/bryan.fzz/"
+        linkedin="https://www.linkedin.com/in/bryan-ferry-523546216/"
         v-if="scoreCard3 == 3"/>
 
     <card class="mt-20" 
         name="Maxime Paris" 
         type="maxime"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/max_prs_25/"
+        linkedin="https://www.linkedin.com/in/maxime-paris-730322215/"
         v-if="scoreCard3 == 4"/>
 
     <card class="mt-20" 
         name="Marwin Rodrigues" 
         type="marwin"
         poste="Developper"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/marwin.rdgs/"
+        linkedin="https://www.linkedin.com/in/marwin-rodrigues/"
         v-if="scoreCard3 == 5"/>
     <!-- ======================================-->
 

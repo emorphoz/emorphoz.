@@ -9,40 +9,40 @@
         name="Alicia Iversenc" 
         type="alicia"
         poste="Com'"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/aliciaivrc/"
+        linkedin="https://www.linkedin.com/in/aliciaiversenc/"
         v-if="scoreCard == 1"/>
         
     <card class="mt-20" 
         name="Morgane Chamberlin" 
         type="morgane"
         poste="Com'"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/morgane.19_c/"
+        linkedin="https://www.linkedin.com/in/morgane-chamberlin/"
         v-if="scoreCard == 2"/>
 
     <card class="mt-20" 
         name="Bryan Ferry" 
         type="bryan"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/bryan.fzz/"
+        linkedin="https://www.linkedin.com/in/bryan-ferry-523546216/"
         v-if="scoreCard == 3"/>
 
     <card class="mt-20" 
         name="Maxime Paris" 
         type="maxime"
         poste="Designer"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/max_prs_25/"
+        linkedin="https://www.linkedin.com/in/maxime-paris-730322215/"
         v-if="scoreCard == 4"/>
 
     <card class="mt-20" 
         name="Marwin Rodrigues" 
         type="marwin"
         poste="Dev'"
-        insta="#"
-        linkedin="#"
+        insta="https://www.instagram.com/marwin.rdgs/"
+        linkedin="https://www.linkedin.com/in/marwin-rodrigues/"
         v-if="scoreCard == 5"/>
     <!-- ======================================-->
 
