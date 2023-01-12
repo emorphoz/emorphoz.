@@ -54,10 +54,10 @@ const SignOut = async () => {
         
       
         <div class="desktop:flex hidden gap-10">
-        <Router-Link to="/login" v-if="user"><p class="font-trap-semibold text-ewhite pt-2">LOG IN</p></Router-Link>
-        <Router-Link to="/Profil" v-if="!user"><p class="font-trap-semibold text-ewhite pt-2">PROFIL</p></Router-Link> <!-- :to="{ name: 'Profil', params: { id: user.id } }"  | /{{user.id}} -->
-        <Router-Link to="/sign" v-if="user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2"><p class="font-trap-semibold text-ewhite text-opacity-40"> Sign Up </p></button></Router-Link>
-        <Router-Link to="/" v-if="!user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2" @click="SignOut()"><p class="font-trap-semibold text-ewhite text-opacity-40"> SIGN OUT </p></button></Router-Link>
+        <Router-Link to="/login" v-if="!user"><p class="font-trap-semibold text-ewhite pt-2">LOG IN</p></Router-Link>
+        <Router-Link to="/Profil" v-if="user"><p class="font-trap-semibold text-ewhite pt-2">PROFIL</p></Router-Link> <!-- :to="{ name: 'Profil', params: { id: user.id } }"  | /{{user.id}} -->
+        <Router-Link to="/sign" v-if="!user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2"><p class="font-trap-semibold text-ewhite text-opacity-40"> Sign Up </p></button></Router-Link>
+        <Router-Link to="/" v-if="user"><button class="bg-epurple bg-opacity-40 border-epurple rounded-3xl p-2 border-2" @click="SignOut()"><p class="font-trap-semibold text-ewhite text-opacity-40"> SIGN OUT </p></button></Router-Link>
       </div>
 
 

@@ -15,7 +15,7 @@ const login = async () => {
 
         password: passwrd.value,
     })
-    route.push("/")
+    // route.push("/")
 }
 
 const logGoogle = async() => { 
@@ -27,7 +27,7 @@ const logGoogle = async() => {
       } catch (error) { 
         alert(error.error_description || error.message); 
       }
-      route.push("/")  
+      // route.push("/")  
     }
 </script>
 
