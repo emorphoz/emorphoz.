@@ -12,11 +12,11 @@
                 </div>
 
                 <div class="flex gap-6">
-                   <a href="#" class="w-1/12"><img src="/public/icon/social/instagram.svg" alt=""></a>
-                   <a href="#" class="w-1/12"><img src="/public/icon/social/mail.svg" alt=""></a>
-                   <a href="#" class="w-1/12"><img src="/public/icon/social/twitter.svg" alt=""></a>
-                   <a href="#" class="w-1/12"><img src="/public/icon/social/discord.svg" alt=""></a>
-                   <a href="#" class="w-1/12"><img src="/public/icon/social/tiktok.svg" alt=""></a> 
+                   <a href="https://www.instagram.com/emorphoz5/" target="_blank" class="w-1/12"><img src="/public/icon/social/instagram.svg" alt=""></a>
+                   <a href="mailto:emorphoz.off@gmail.com" class="w-1/12" target="_blank"><img src="/public/icon/social/mail.svg" alt=""></a>
+                   <a href="https://twitter.com/EMorphoz5" target="_blank" class="w-1/12"><img src="/public/icon/social/twitter.svg" alt=""></a>
+                   <a href="https://discord.gg/H9cDx4h3s3" target="_blank" class="w-1/12"><img src="/public/icon/social/discord.svg" alt=""></a>
+                   <a href="https://www.tiktok.com/@emorphoz" target="_blank" class="w-1/12"><img src="/public/icon/social/tiktok.svg" alt=""></a> 
                 </div>
             </div>
 
@@ -89,22 +89,22 @@
             </div>
 
             <ul class="ml-2">
-                <a href="#"><li class="text-ewhite text-xs font-trap-semibold">Legal Mentions</li></a> <hr class="opacity-30 mb-5 w-11/12"/>
-                <a href="#"><li class="text-ewhite text-xs font-trap-semibold">OFFF</li></a> <hr class="opacity-30 mb-5 w-11/12"/>
-                <a href="#"><li class="text-ewhite text-xs font-trap-semibold">Tezos</li></a> <hr class="opacity-30 mb-5 w-11/12" />
+                <Router-Link to="/mentionslegales"><li class="text-ewhite text-xs font-trap-semibold">Legal Mentions</li></Router-Link> <hr class="opacity-30 mb-5 w-11/12"/>
+                <a href="https://www.offf.barcelona/" target="_blank"><li class="text-ewhite text-xs font-trap-semibold">OFFF</li></a> <hr class="opacity-30 mb-5 w-11/12"/>
+                <a href="https://tezos.com/" target="_blank"><li class="text-ewhite text-xs font-trap-semibold">Tezos</li></a> <hr class="opacity-30 mb-5 w-11/12" />
                 <Router-Link to="/how"><li class="text-ewhite text-xs font-trap-semibold">How it works</li></Router-Link> <hr class="opacity-30 mb-5 w-11/12"/>
                 <Router-Link to="/market"><li class="text-ewhite text-xs font-trap-semibold">Generate NFT's</li></Router-Link> <hr class="opacity-30 mb-5 w-11/12" />
             </ul>
 
 
             <div class="flex justify-center gap-10">
-                   <a href="#"><img src="/public/icon/social/instagram.svg" alt=""></a>
-                   <a href="#"><img src="/public/icon/social/mail.svg" alt=""></a>
-                   <a href="#"><img src="/public/icon/social/twitter.svg" alt=""></a>
+                   <a href="https://www.instagram.com/emorphoz5/" target="_blank"><img src="/public/icon/social/instagram.svg" alt=""></a>
+                   <a href="mailto:emorphoz.off@gmail.com" target="_blank"><img src="/public/icon/social/mail.svg" alt=""></a>
+                   <a href="https://twitter.com/EMorphoz5" target="_blank"><img src="/public/icon/social/twitter.svg" alt=""></a>
             </div>
             <div class="flex justify-center gap-10">
-                   <a href="#"><img src="/public/icon/social/discord.svg" alt=""></a>
-                   <a href="#"><img src="/public/icon/social/tiktok.svg" alt=""></a> 
+                   <a href="https://discord.gg/H9cDx4h3s3" target="_blank"><img src="/public/icon/social/discord.svg" alt=""></a>
+                   <a href="https://www.tiktok.com/@emorphoz" target="_blank"><img src="/public/icon/social/tiktok.svg" alt=""></a> 
             </div>
 
         </div>

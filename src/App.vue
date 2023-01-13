@@ -77,7 +77,7 @@ const SignOut = async() => {
         <img src="/public/icon/orbe-purple.svg" alt="" class="absolute z-0 w-[1000px]">
         <ul class="mt-14 z-50">
           <li class="z-50">
-          <Router-link to="/" @click="menuVisible = !menuVisible" class="z-50">
+          <Router-link to="/login" @click="menuVisible = !menuVisible" class="z-50">
             <div class="flex gap-4 justify-center z-50">
               <h2 class="font-trap-medium text-ewhite text-base z-50">Log in / Sign up</h2>
               <img src="/public/icon/phoneMenu/Profil.svg" alt="" class="z-50">
