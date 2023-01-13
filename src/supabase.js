@@ -9,13 +9,12 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 import { ref } from "vue";
 
 export const user = ref()
+export const isConnect = ref();
+isConnect.value = false;
 
 supabase.auth.onAuthStateChange(async () => {
     const { data, error } = await supabase.auth.getSession()
     user.value = data.session.user
+    isConnect.value = !isConnect.value
     console.log(user.value);
 })
-
-export const signout = async () => {
-    const { error } = await supabase.auth.signOut()
-}
