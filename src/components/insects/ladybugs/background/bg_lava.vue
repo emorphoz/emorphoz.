@@ -1,3 +1,3 @@
 <template>
-    <img src="/public/insects/ladybugs/backgrounds/bg_lava.png" alt="">
+    <img src="/public/insects/ladybugs/backgrounds/bg_lava_cold.png" alt="">
 </template>
